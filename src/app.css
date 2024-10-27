@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ActionBar {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn {
+  font-size: 18;
+  padding: 10;
+  margin: 10;
+  border-radius: 8;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-success {
+  background-color: #16a34a;
+  color: white;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8;
+  padding: 16;
+  margin: 8;
+  elevation: 2;
+}
+
+.input {
+  padding: 12;
+  margin: 8;
+  border-width: 1;
+  border-color: #e5e7eb;
+  border-radius: 8;
+  font-size: 16;
+}
